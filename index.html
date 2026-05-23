@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="Sai Sree Lalam — Freelance Product Manager with 7+ years of experience in FinTech, E-commerce, SaaS and Consumer Apps. Based in Visakhapatnam, India. Available for hire."/>
+<meta name="keywords" content="Product Manager, Freelance PM, FinTech, SaaS, Visakhapatnam, India, Sai Sree Lalam"/>
+<meta name="author" content="Sai Sree Lalam"/>
+<meta property="og:title" content="Sai Sree Lalam — Freelance Product Manager"/>
+<meta property="og:description" content="7+ years of experience helping startups define, build, and ship products that reach real users."/>
+<meta property="og:type" content="website"/>
+<meta property="og:locale" content="en_IN"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Sai Sree Lalam — Freelance Product Manager"/>
+<meta name="twitter:description" content="7+ years of experience in FinTech, E-commerce, SaaS and Consumer Apps."/>
+<title>Sai Sree Lalam — Freelance Product Manager</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
+body{background:#f8f5f0;color:#1a1814;font-family:'Plus Jakarta Sans',sans-serif;font-weight:400;line-height:1.7;overflow-x:hidden;}
+:root{
+  --gold:#c9933a;
+  --gold-light:#f0d9a8;
+  --ink:#1a1814;
+  --cream:#f8f5f0;
+  --white:#ffffff;
+  --muted:#6e6860;
+  --border:#e4ddd4;
+  --card:#ffffff;
+}
+
+/* ── NAV ── */
+nav{
+  background:var(--white);
+  border-bottom:1px solid var(--border);
+  padding:1rem 1.5rem;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position:sticky;
+  top:0;
+  z-index:99;
+  gap:0.5rem;
+}
+.nav-name{font-family:'Playfair Display',serif;font-size:1.05rem;font-weight:700;color:var(--ink);white-space:nowrap;}
+.nav-badge{background:var(--gold);color:#fff;font-size:0.7rem;font-weight:600;letter-spacing:0.08em;padding:0.3rem 0.8rem;border-radius:100px;white-space:nowrap;flex-shrink:0;}
+
+/* ── HERO ── */
+.hero{background:var(--ink);color:#fff;padding:3rem 1.5rem 3.5rem;position:relative;overflow:hidden;}
+.hero::before{content:'';position:absolute;top:-60px;right:-60px;width:220px;height:220px;border-radius:50%;background:rgba(201,147,58,0.15);pointer-events:none;}
+.hero-tag{display:inline-block;color:var(--gold-light);font-size:0.72rem;letter-spacing:0.2em;text-transform:uppercase;margin-bottom:1rem;font-weight:500;}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(2rem,6vw,2.8rem);font-weight:900;line-height:1.1;margin-bottom:0.5rem;}
+.hero h1 em{font-style:italic;color:var(--gold-light);}
+.hero-role{font-size:0.95rem;color:rgba(255,255,255,0.55);margin-bottom:1.5rem;}
+.hero-intro{font-size:1rem;color:rgba(255,255,255,0.82);line-height:1.75;margin-bottom:2rem;max-width:520px;}
+.hero-stats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.1);border-radius:8px;overflow:hidden;margin-bottom:2rem;}
+.stat{background:rgba(255,255,255,0.05);padding:1.1rem 0.8rem;text-align:center;}
+.stat-num{font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:700;color:var(--gold-light);line-height:1;margin-bottom:0.25rem;}
+.stat-txt{font-size:0.68rem;color:rgba(255,255,255,0.5);line-height:1.35;letter-spacing:0.02em;}
+.hero-btns{display:flex;gap:0.8rem;flex-wrap:wrap;}
+.btn{display:inline-block;padding:0.85rem 1.6rem;border-radius:4px;font-size:0.85rem;font-weight:600;text-decoration:none;letter-spacing:0.04em;transition:all 0.2s;cursor:pointer;border:none;text-align:center;}
+.btn-gold{background:var(--gold);color:#fff;}
+.btn-gold:hover{background:#b07e2a;transform:translateY(-1px);}
+.btn-outline{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,0.3);}
+.btn-outline:hover{border-color:#fff;}
+
+/* ── SECTIONS ── */
+.section{padding:3rem 1.5rem;}
+.section-alt{background:var(--white);}
+.section-dark{background:var(--ink);color:#fff;}
+.label{font-size:0.7rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:0.5rem;}
+.section-dark .label{color:var(--gold-light);}
+h2{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,5vw,1.9rem);font-weight:700;line-height:1.2;margin-bottom:0.6rem;}
+.section-dark h2{color:#fff;}
+.sub{color:var(--muted);font-size:0.92rem;margin-bottom:2rem;max-width:500px;}
+.section-dark .sub{color:rgba(255,255,255,0.5);}
+
+/* ── ABOUT ── */
+.about-text{font-size:0.97rem;color:#3a3630;line-height:1.85;margin-bottom:1rem;}
+.about-highlight{background:var(--gold-light);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:0 6px 6px 0;font-size:0.92rem;color:var(--ink);margin-top:1.5rem;font-style:italic;}
+
+/* ── SERVICES ── */
+.offer-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
+.offer-card{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:8px;padding:1.3rem 1rem;transition:background 0.2s;}
+.offer-card:hover{background:rgba(255,255,255,0.09);}
+.offer-icon{font-size:1.5rem;margin-bottom:0.6rem;}
+.offer-title{font-weight:600;font-size:0.88rem;color:#fff;margin-bottom:0.4rem;line-height:1.3;}
+.offer-desc{font-size:0.78rem;color:rgba(255,255,255,0.5);line-height:1.6;}
+
+/* ── WHY ME ── */
+.why-grid{display:flex;flex-direction:column;gap:1rem;}
+.why-item{display:flex;gap:1rem;align-items:flex-start;background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1.2rem;}
+.why-icon{font-size:1.5rem;flex-shrink:0;width:40px;text-align:center;}
+.why-title{font-weight:600;font-size:0.92rem;margin-bottom:0.2rem;}
+.why-text{font-size:0.83rem;color:var(--muted);line-height:1.65;}
+
+/* ── CASE STUDIES ── */
+.case{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-bottom:1.5rem;box-shadow:0 2px 16px rgba(0,0,0,0.05);}
+.case-header{background:var(--ink);padding:1.2rem 1.5rem;display:flex;justify-content:space-between;align-items:flex-start;}
+.case-num{font-family:'Playfair Display',serif;font-size:2rem;color:rgba(201,147,58,0.3);line-height:1;font-weight:900;}
+.case-tags-wrap{display:flex;flex-direction:column;gap:0.3rem;align-items:flex-end;}
+.ctag{font-size:0.65rem;letter-spacing:0.1em;text-transform:uppercase;border:1px solid rgba(201,147,58,0.4);color:var(--gold-light);padding:0.15rem 0.6rem;border-radius:3px;}
+.case-body{padding:1.5rem;}
+.case-co{font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:0.3rem;}
+.case h3{font-family:'Playfair Display',serif;font-size:1.35rem;font-weight:700;margin-bottom:1.2rem;line-height:1.25;}
+.case-block{margin-bottom:1.1rem;}
+.case-block-label{font-size:0.68rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:0.3rem;}
+.case-block p{font-size:0.88rem;color:#444;line-height:1.78;}
+.case-outcome{background:#fdf8f0;border-left:3px solid var(--gold);padding:0.9rem 1.1rem;border-radius:0 6px 6px 0;margin-top:1.2rem;}
+.case-outcome p{font-size:0.85rem;color:var(--ink);font-weight:500;}
+
+/* ── TIMELINE ── */
+.timeline{position:relative;padding-left:1.5rem;}
+.timeline::before{content:'';position:absolute;left:0;top:10px;bottom:0;width:1px;background:var(--border);}
+.titem{position:relative;padding-bottom:2.5rem;}
+.titem:last-child{padding-bottom:0;}
+.titem::before{content:'';position:absolute;left:-1.5rem;top:10px;width:8px;height:8px;border-radius:50%;background:var(--gold);border:2px solid var(--white);box-shadow:0 0 0 2px var(--gold);}
+.tperiod{font-size:0.72rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:0.25rem;}
+.trole{font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:700;margin-bottom:0.15rem;}
+.tco{color:var(--muted);font-size:0.85rem;margin-bottom:0.6rem;}
+.tdesc{font-size:0.87rem;color:#555;line-height:1.75;}
+
+/* ── SKILLS ── */
+.skills-section{display:flex;flex-direction:column;gap:1.8rem;}
+.skill-cat-title{font-size:0.7rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:0.7rem;padding-bottom:0.4rem;border-bottom:1px solid var(--border);}
+.pills{display:flex;flex-wrap:wrap;gap:0.5rem;}
+.pill{padding:0.35rem 0.9rem;background:var(--cream);border:1px solid var(--border);border-radius:3px;font-size:0.8rem;color:var(--ink);transition:all 0.2s;}
+.pill:hover{border-color:var(--gold);color:var(--gold);}
+
+/* ── CONTACT ── */
+.contact-section{background:var(--ink);color:#fff;padding:3rem 1.5rem;text-align:center;}
+.contact-section h2{color:#fff;margin-bottom:0.5rem;}
+.contact-section .sub{margin:0 auto 2rem;text-align:center;}
+.avail-badge{display:inline-flex;align-items:center;gap:0.5rem;border:1px solid rgba(100,200,100,0.35);padding:0.45rem 1.1rem;border-radius:100px;font-size:0.75rem;color:#7ecb7e;letter-spacing:0.06em;margin-bottom:2rem;}
+.avail-dot{width:6px;height:6px;border-radius:50%;background:#7ecb7e;animation:pulse 2s infinite;flex-shrink:0;}
+.contact-cards{display:flex;flex-direction:column;gap:0.8rem;margin-bottom:2rem;}
+.contact-card{display:flex;align-items:center;gap:0.9rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:8px;padding:1rem 1.2rem;text-decoration:none;color:#fff;transition:all 0.2s;text-align:left;}
+.contact-card:hover{background:rgba(255,255,255,0.09);border-color:var(--gold);}
+.contact-icon{font-size:1.3rem;flex-shrink:0;}
+.contact-label{font-size:0.7rem;color:rgba(255,255,255,0.4);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:0.1rem;}
+.contact-val{font-size:0.9rem;font-weight:500;word-break:break-word;}
+
+/* ── CONTACT FORM ── */
+.contact-form-wrap{
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,0.1);
+  border-radius:10px;
+  padding:1.8rem 1.5rem;
+  margin-bottom:2rem;
+  text-align:left;
+}
+.contact-form-wrap p.form-note{
+  font-size:0.78rem;
+  color:rgba(255,255,255,0.4);
+  margin-bottom:1.2rem;
+  text-align:center;
+  letter-spacing:0.02em;
+}
+.form-row{display:flex;gap:0.8rem;flex-wrap:wrap;}
+.form-group{display:flex;flex-direction:column;gap:0.35rem;flex:1;min-width:0;}
+.form-group.full{flex:1 1 100%;}
+.form-group label{font-size:0.72rem;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.45);font-weight:600;}
+.form-group input,
+.form-group textarea,
+.form-group select{
+  background:rgba(255,255,255,0.07);
+  border:1px solid rgba(255,255,255,0.15);
+  border-radius:5px;
+  padding:0.75rem 1rem;
+  color:#fff;
+  font-family:'Plus Jakarta Sans',sans-serif;
+  font-size:0.9rem;
+  outline:none;
+  transition:border-color 0.2s;
+  width:100%;
+}
+.form-group input::placeholder,
+.form-group textarea::placeholder{color:rgba(255,255,255,0.25);}
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus{border-color:var(--gold);}
+.form-group select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='rgba(255,255,255,0.4)' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 1rem center;padding-right:2.5rem;cursor:pointer;}
+.form-group select option{background:#1a1814;color:#fff;}
+.form-group textarea{resize:vertical;min-height:110px;line-height:1.6;}
+.form-submit{width:100%;margin-top:1rem;padding:0.9rem 1.6rem;font-size:0.88rem;}
+.form-success{display:none;text-align:center;padding:1.5rem;color:#7ecb7e;font-size:0.92rem;}
+.form-success span{font-size:2rem;display:block;margin-bottom:0.5rem;}
+.form-error-msg{display:none;font-size:0.78rem;color:#f08080;margin-top:0.8rem;text-align:center;}
+
+/* ── DIVIDER ── */
+.form-divider{display:flex;align-items:center;gap:0.8rem;margin:1.5rem 0;color:rgba(255,255,255,0.2);font-size:0.72rem;letter-spacing:0.12em;text-transform:uppercase;}
+.form-divider::before,.form-divider::after{content:'';flex:1;height:1px;background:rgba(255,255,255,0.1);}
+
+/* ── FOOTER ── */
+footer{background:#0d0c0a;color:rgba(255,255,255,0.25);text-align:center;padding:1.2rem;font-size:0.75rem;letter-spacing:0.05em;}
+
+/* ── ANIMATIONS ── */
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1);}50%{opacity:0.45;transform:scale(0.8);}}
+
+/* ── RESPONSIVE ── */
+@media(max-width:768px){
+  .offer-grid{grid-template-columns:1fr 1fr;}
+}
+@media(max-width:480px){
+  nav{padding:0.9rem 1rem;}
+  .nav-name{font-size:0.95rem;}
+  .nav-badge{font-size:0.65rem;padding:0.25rem 0.65rem;}
+  .hero{padding:2.2rem 1rem 2.8rem;}
+  .hero h1{font-size:1.75rem;}
+  .hero-intro{font-size:0.92rem;}
+  .stat-num{font-size:1.35rem;}
+  .stat-txt{font-size:0.62rem;}
+  .btn{padding:0.75rem 1.2rem;font-size:0.82rem;}
+  .hero-btns{gap:0.6rem;}
+  .section{padding:2.2rem 1rem;}
+  h2{font-size:1.55rem;}
+  .offer-grid{grid-template-columns:1fr;}
+  .why-icon{width:34px;font-size:1.3rem;}
+  .case-body{padding:1.1rem;}
+  .case h3{font-size:1.15rem;}
+  .contact-section{padding:2.2rem 1rem;}
+  .contact-val{font-size:0.85rem;}
+  .contact-form-wrap{padding:1.3rem 1rem;}
+  .form-row{flex-direction:column;gap:0.8rem;}
+  .titem::before{left:-1.4rem;}
+}
+@media(max-width:340px){
+  .hero-stats{grid-template-columns:1fr;}
+  .offer-grid{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <span class="nav-name">Sai Sree Lalam</span>
+  <span class="nav-badge">✦ Available for Hire</span>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <p class="hero-tag">Freelance Product Manager · Visakhapatnam, India</p>
+  <h1>I build products<br/>that <em>actually launch.</em></h1>
+  <p class="hero-role">FinTech · E-commerce · SaaS · Consumer Apps</p>
+  <p class="hero-intro">I'm a freelance Product Manager with 7+ years of experience — 4 years in Quality Assurance at Amazon, and 3+ years leading product teams at FinTech startups. I help early-stage startups define what to build, align their teams, and ship products that reach real users.</p>
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-num">7+</div><div class="stat-txt">Years of Experience</div></div>
+    <div class="stat"><div class="stat-num">4</div><div class="stat-txt">Apps on Play Store</div></div>
+    <div class="stat"><div class="stat-num">4</div><div class="stat-txt">Industry Domains</div></div>
+  </div>
+  <div class="hero-btns">
+    <a href="#contact" class="btn btn-gold">Hire Me →</a>
+    <a href="#work" class="btn btn-outline">See My Work</a>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<div class="section section-alt" id="about">
+  <p class="label">About Me</p>
+  <h2>Who I Am</h2>
+  <p class="about-text">My name is <strong>Sai Sree Lalam</strong>, a freelance Product Manager based in Visakhapatnam, India. I started my career as a <strong>Content Test Specialist at Amazon</strong> — spending 4 years sharpening my eye for quality, edge cases, and what makes a product actually work for users.</p>
+  <p class="about-text">I then moved into Product Management, where I found my real passion: turning messy problems into clear, launched products. I've worked with <strong>FinTech startups and a FinTech MNC</strong> — owning products from the first wireframe all the way to Play Store launch.</p>
+  <p class="about-text">Today I offer freelance PM services to <strong>early-stage startups</strong> who need hands-on product leadership without the cost of a full-time hire. I bring structure, reduce wasted development time, and keep your team moving in one direction.</p>
+  <div class="about-highlight">"My QA background at Amazon means I think like a user AND a tester — catching problems before they reach your customers."</div>
+</div>
+
+<!-- SERVICES -->
+<div class="section section-dark" id="services">
+  <p class="label">Services</p>
+  <h2>What I Can Do for You</h2>
+  <p class="sub">Whether you're building from scratch or a product that needs direction — I bring hands-on PM expertise to reduce cost and ship faster.</p>
+  <div class="offer-grid">
+    <div class="offer-card"><div class="offer-icon">🗺️</div><div class="offer-title">Product Strategy & Roadmapping</div><div class="offer-desc">Define what to build, why, and in what order — so your team never wastes a sprint.</div></div>
+    <div class="offer-card"><div class="offer-icon">📋</div><div class="offer-title">PRD Writing</div><div class="offer-desc">Clear, developer-ready requirements so the right thing gets built the first time.</div></div>
+    <div class="offer-card"><div class="offer-icon">🤝</div><div class="offer-title">Team Collaboration</div><div class="offer-desc">I bridge designers, developers and stakeholders — eliminating confusion across teams.</div></div>
+    <div class="offer-card"><div class="offer-icon">🚀</div><div class="offer-title">End-to-End Launch</div><div class="offer-desc">From idea to Play Store. I stay with your product through launch and beyond.</div></div>
+    <div class="offer-card"><div class="offer-icon">🔍</div><div class="offer-title">User Research</div><div class="offer-desc">Understand what users actually need — real pain points, real fixes.</div></div>
+    <div class="offer-card"><div class="offer-icon">💰</div><div class="offer-title">Cost Reduction</div><div class="offer-desc">Build lean — avoiding rework, over-engineering and wasted dev hours.</div></div>
+  </div>
+</div>
+
+<!-- WHY ME -->
+<div class="section section-alt" id="why">
+  <p class="label">Why Me</p>
+  <h2>Why Clients Choose Me</h2>
+  <p class="sub">I'm not just a PM who writes documents. I get involved, stay involved, and care about the outcome.</p>
+  <div class="why-grid">
+    <div class="why-item"><div class="why-icon">🏢</div><div><div class="why-title">Amazon-Level Quality Thinking</div><div class="why-text">4 years of QA at Amazon trained me to think about every edge case. Your product gets tested thinking before it reaches users.</div></div></div>
+    <div class="why-item"><div class="why-icon">📱</div><div><div class="why-title">I've Launched Real Apps</div><div class="why-text">Not theory — I've taken apps from zero to live on the Play Store, managing every step from PRD to post-launch feedback.</div></div></div>
+    <div class="why-item"><div class="why-icon">💡</div><div><div class="why-title">Startup Experience</div><div class="why-text">I've worked in lean startups where resources are tight. I know how to prioritise ruthlessly and deliver value without burning budget.</div></div></div>
+    <div class="why-item"><div class="why-icon">🌐</div><div><div class="why-title">Multi-Domain Knowledge</div><div class="why-text">FinTech, E-commerce, SaaS and Consumer Apps — I bring cross-domain thinking that helps you avoid blind spots.</div></div></div>
+  </div>
+</div>
+
+<!-- CASE STUDIES -->
+<div class="section" id="work">
+  <p class="label">Case Studies</p>
+  <h2>Products I've Shipped</h2>
+  <p class="sub">Real products, real challenges — here's how I approached them from scratch to launch.</p>
+
+  <div class="case">
+    <div class="case-header">
+      <div class="case-num">01</div>
+      <div class="case-tags-wrap"><span class="ctag">FinTech</span><span class="ctag">Loan Aggregator</span></div>
+    </div>
+    <div class="case-body">
+      <p class="case-co">FinTech Startup</p>
+      <h3>Loan Aggregator App</h3>
+      <div class="case-block">
+        <p class="case-block-label">🔴 The Problem</p>
+        <p>People who needed a loan had to visit each bank one by one — either physically or on their individual websites. Time-consuming, confusing, and exhausting just to compare rates and eligibility across multiple banks.</p>
+      </div>
+      <div class="case-block">
+        <p class="case-block-label">💡 The Solution</p>
+        <p>A loan aggregator app that brought all major banks into one place. Users could see loan offers, interest rates, and eligibility side by side — then apply directly to the bank of their choice, all from a single screen.</p>
+      </div>
+      <div class="case-block">
+        <p class="case-block-label">🛠️ What I Did as PM</p>
+        <p>I owned this product from day zero to Play Store launch. Wrote the full PRD, ran sessions to understand user pain points, collaborated with designers in Figma, managed engineering via Jira, and documented everything in Confluence. After launch, I continued monitoring user feedback and iterated with the team.</p>
+      </div>
+      <div class="case-outcome"><p>✦ <strong>Result:</strong> Significant growth in app users post-launch. Users could compare and apply for loans in minutes instead of days — saving time and reducing confusion at every step.</p></div>
+    </div>
+  </div>
+
+  <div class="case">
+    <div class="case-header">
+      <div class="case-num">02</div>
+      <div class="case-tags-wrap"><span class="ctag">FinTech</span><span class="ctag">Gamification</span></div>
+    </div>
+    <div class="case-body">
+      <p class="case-co">FinTech Startup</p>
+      <h3>Incentive-Based Rewards App</h3>
+      <div class="case-block">
+        <p class="case-block-label">🔴 The Problem</p>
+        <p>Financial tasks like applying for a loan have poor completion rates because users don't see an immediate reward. How do you motivate users to take meaningful financial actions in a way that feels fun, not like a chore?</p>
+      </div>
+      <div class="case-block">
+        <p class="case-block-label">💡 The Solution</p>
+        <p>An incentive-based platform where users earn rewards by completing tasks — playing games, signing up for services, or applying for financial products through partner banks. Complete the task, earn a generous incentive. Simple, motivating, and engaging.</p>
+      </div>
+      <div class="case-block">
+        <p class="case-block-label">🛠️ What I Did as PM</p>
+        <p>End-to-end product ownership — defined the task flow and reward logic, shaped the user journey, and worked hands-on with design and engineering to ship the product. Ensured the gamification loop felt natural and not forced, which was key to user retention.</p>
+      </div>
+      <div class="case-outcome"><p>✦ <strong>Result:</strong> Strong user engagement post-launch with high task completion rates. Users returned repeatedly to complete new tasks and claim rewards — proving the incentive model worked.</p></div>
+    </div>
+  </div>
+
+  <div class="case">
+    <div class="case-header">
+      <div class="case-num">03</div>
+      <div class="case-tags-wrap"><span class="ctag">FinTech</span><span class="ctag">Referral & Rewards</span></div>
+    </div>
+    <div class="case-body">
+      <p class="case-co">FinTech Startup</p>
+      <h3>Share & Earn Incentive App</h3>
+      <div class="case-block">
+        <p class="case-block-label">🔴 The Problem</p>
+        <p>Growing a user base organically is expensive and slow. Most apps struggle to turn existing users into active promoters. The challenge was to build a product that rewards users for sharing and referring — making growth feel natural, not forced.</p>
+      </div>
+      <div class="case-block">
+        <p class="case-block-label">💡 The Solution</p>
+        <p>A share-and-earn incentive platform where users earn rewards every time they refer friends or share the app with their network. The more they share, the more they earn — creating a viral loop that drives organic user growth at low acquisition cost.</p>
+      </div>
+      <div class="case-block">
+        <p class="case-block-label">🛠️ What I Did as PM</p>
+        <p>Defined the referral flow and reward structure, wrote the PRD, and collaborated with design and engineering to build and launch the product. Monitored post-launch sharing patterns and iterated on the reward logic to improve referral conversion rates.</p>
+      </div>
+      <div class="case-outcome"><p>✦ <strong>Result:</strong> Increased organic user acquisition through the referral loop. Users actively shared the app to earn incentives, reducing the cost of new user acquisition significantly.</p></div>
+    </div>
+  </div>
+
+  <div class="case">
+    <div class="case-header">
+      <div class="case-num">04</div>
+      <div class="case-tags-wrap"><span class="ctag">FinTech</span><span class="ctag">Payroll</span><span class="ctag">B2B</span></div>
+    </div>
+    <div class="case-body">
+      <p class="case-co">FinTech Startup</p>
+      <h3>Prepaid Payroll Management App</h3>
+      <div class="case-block">
+        <p class="case-block-label">🔴 The Problem</p>
+        <p>Many businesses — especially small and mid-sized companies — struggle with timely, flexible salary disbursement. Employees often wait until month-end for their pay, causing financial stress. Existing payroll tools were either too complex or not built for prepaid, on-demand salary needs.</p>
+      </div>
+      <div class="case-block">
+        <p class="case-block-label">💡 The Solution</p>
+        <p>A prepaid payroll app that allows businesses to disburse salaries early or on-demand directly to employee accounts — giving employees access to their earned wages before the traditional payday. Simple for employers to manage, and empowering for employees.</p>
+      </div>
+      <div class="case-block">
+        <p class="case-block-label">🛠️ What I Did as PM</p>
+        <p>Owned the product end-to-end — from understanding employer and employee pain points, writing the PRD, coordinating with design and development teams, to overseeing the launch. Ensured the payroll disbursement flow was simple, secure, and reliable for both business owners and employees.</p>
+      </div>
+      <div class="case-outcome"><p>✦ <strong>Result:</strong> Successfully launched a prepaid payroll solution that improved salary flexibility for employees and reduced administrative burden for businesses — addressing a real gap in the market.</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- EXPERIENCE -->
+<div class="section section-alt" id="experience">
+  <p class="label">Career</p>
+  <h2>My Experience</h2>
+  <p class="sub">7+ years across QA and Product — from Amazon to FinTech startups.</p>
+  <div class="timeline">
+    <div class="titem">
+      <p class="tperiod">2021 – Present</p>
+      <h3 class="trole">Product Manager</h3>
+      <p class="tco">FinTech Startups & MNC</p>
+      <p class="tdesc">Led end-to-end product development across multiple FinTech consumer apps. Owned the full product lifecycle — PRD, design collaboration, engineering coordination, launch, and post-launch iteration. Delivered apps live on the Google Play Store from scratch.</p>
+    </div>
+    <div class="titem">
+      <p class="tperiod">2017 – 2021</p>
+      <h3 class="trole">Content Test Specialist</h3>
+      <p class="tco">Amazon</p>
+      <p class="tdesc">4 years of rigorous quality assurance at one of the world's top technology companies. Built a deep eye for product quality, edge cases, and user-facing defects — a mindset I bring directly into every product I manage today.</p>
+    </div>
+  </div>
+</div>
+
+<!-- SKILLS -->
+<div class="section" id="skills">
+  <p class="label">Toolkit</p>
+  <h2>Skills & Tools</h2>
+  <p class="sub">The tools and skills I use to build and ship great products.</p>
+  <div class="skills-section">
+    <div>
+      <p class="skill-cat-title">Product Management</p>
+      <div class="pills">
+        <span class="pill">Product Strategy</span><span class="pill">Roadmapping</span><span class="pill">PRD Writing</span><span class="pill">Feature Prioritisation</span><span class="pill">User Research</span><span class="pill">Sprint Planning</span><span class="pill">Go-to-Market</span>
+      </div>
+    </div>
+    <div>
+      <p class="skill-cat-title">Tools</p>
+      <div class="pills">
+        <span class="pill">Figma</span><span class="pill">Jira</span><span class="pill">Confluence</span><span class="pill">Google Play Console</span>
+      </div>
+    </div>
+    <div>
+      <p class="skill-cat-title">Domains</p>
+      <div class="pills">
+        <span class="pill">FinTech</span><span class="pill">E-commerce</span><span class="pill">SaaS / B2B</span><span class="pill">Consumer Apps</span><span class="pill">Loan & Credit Products</span><span class="pill">Incentive Platforms</span>
+      </div>
+    </div>
+    <div>
+      <p class="skill-cat-title">Soft Skills</p>
+      <div class="pills">
+        <span class="pill">Cross-team Collaboration</span><span class="pill">Stakeholder Management</span><span class="pill">QA Mindset</span><span class="pill">Problem Solving</span><span class="pill">Cost Reduction</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<div class="contact-section" id="contact">
+  <p class="label">Let's Work Together</p>
+  <h2>Ready to Build Something?</h2>
+  <p class="sub">I work with early-stage startups who need a hands-on Product Manager to reduce development costs and ship products that users love.</p>
+  <div class="avail-badge"><div class="avail-dot"></div>Available for Freelance Projects</div>
+
+  <!-- CONTACT FORM (Formspree — replace YOUR_FORM_ID) -->
+  <div class="contact-form-wrap">
+    <p class="form-note">Fill in the form below — I'll reply within 24 hours.</p>
+    <div id="contactForm">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="fname">Your Name</label>
+          <input type="text" id="fname" name="name" placeholder="Rahul Sharma" required/>
+        </div>
+        <div class="form-group">
+          <label for="femail">Your Email</label>
+          <input type="email" id="femail" name="email" placeholder="rahul@startup.com" required/>
+        </div>
+      </div>
+      <div class="form-row" style="margin-top:0.8rem;">
+        <div class="form-group full">
+          <label for="ftype">What do you need?</label>
+          <select id="ftype" name="service">
+            <option value="" disabled selected>Select a service…</option>
+            <option value="Product Strategy & Roadmapping">Product Strategy & Roadmapping</option>
+            <option value="PRD Writing">PRD Writing</option>
+            <option value="End-to-End Launch">End-to-End Launch</option>
+            <option value="User Research">User Research</option>
+            <option value="Team Collaboration / Fractional PM">Team Collaboration / Fractional PM</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row" style="margin-top:0.8rem;">
+        <div class="form-group full">
+          <label for="fmsg">Tell me about your project</label>
+          <textarea id="fmsg" name="message" placeholder="What are you building? What's the challenge you're facing?"></textarea>
+        </div>
+      </div>
+      <p class="form-error-msg" id="formError">Something went wrong. Please email me directly at powlika5@gmail.com</p>
+      <button type="button" class="btn btn-gold form-submit" onclick="submitForm()">Send Message →</button>
+    </div>
+    <div class="form-success" id="formSuccess">
+      <span>✦</span>
+      Message sent! I'll get back to you within 24 hours.
+    </div>
+  </div>
+
+  <div class="form-divider">or reach me directly</div>
+
+  <div class="contact-cards">
+    <a href="mailto:powlika5@gmail.com" class="contact-card">
+      <span class="contact-icon">✉️</span>
+      <div>
+        <div class="contact-label">Email</div>
+        <div class="contact-val">powlika5@gmail.com</div>
+      </div>
+    </a>
+    <a href="https://www.linkedin.com/in/saisree-lalam" target="_blank" rel="noopener noreferrer" class="contact-card">
+      <span class="contact-icon">💼</span>
+      <div>
+        <div class="contact-label">LinkedIn</div>
+        <div class="contact-val">linkedin.com/in/saisree-lalam</div>
+      </div>
+    </a>
+    <a href="https://www.google.com/maps/place/Visakhapatnam,+Andhra+Pradesh" target="_blank" rel="noopener noreferrer" class="contact-card">
+      <span class="contact-icon">📍</span>
+      <div>
+        <div class="contact-label">Location</div>
+        <div class="contact-val">Visakhapatnam, India · Open to Remote</div>
+      </div>
+    </a>
+  </div>
+</div>
+
+<footer>© 2026 Sai Sree Lalam · Freelance Product Manager · Visakhapatnam, India</footer>
+
+<script>
+async function submitForm() {
+  const name    = document.getElementById('fname').value.trim();
+  const email   = document.getElementById('femail').value.trim();
+  const service = document.getElementById('ftype').value;
+  const message = document.getElementById('fmsg').value.trim();
+  const errEl   = document.getElementById('formError');
+  const btn     = document.querySelector('.form-submit');
+
+  errEl.style.display = 'none';
+
+  if (!name || !email || !message) {
+    errEl.textContent = 'Please fill in your name, email, and message.';
+    errEl.style.display = 'block';
+    return;
+  }
+  const emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRe.test(email)) {
+    errEl.textContent = 'Please enter a valid email address.';
+    errEl.style.display = 'block';
+    return;
+  }
+
+  btn.textContent = 'Sending…';
+  btn.disabled = true;
+
+  try {
+    // ── OPTION A: Formspree (recommended for static hosting) ──
+    // 1. Sign up free at https://formspree.io
+    // 2. Create a form → copy your Form ID
+    // 3. Replace YOUR_FORM_ID below with your actual ID (e.g. "xpzgkwnb")
+    const FORMSPREE_ID = 'YOUR_FORM_ID';
+
+    if (FORMSPREE_ID === 'YOUR_FORM_ID') {
+      // Dev fallback: open mailto when Formspree not configured yet
+      const subject = encodeURIComponent('Freelance PM Inquiry' + (service ? ' — ' + service : ''));
+      const body    = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + (service ? '\nService: ' + service : '') + '\n\n' + message);
+      window.location.href = 'mailto:powlika5@gmail.com?subject=' + subject + '&body=' + body;
+      btn.textContent = 'Send Message →';
+      btn.disabled = false;
+      return;
+    }
+
+    const res = await fetch('https://formspree.io/f/' + FORMSPREE_ID, {
+      method: 'POST',
+      headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, email, service, message })
+    });
+
+    if (res.ok) {
+      document.getElementById('contactForm').style.display = 'none';
+      document.getElementById('formSuccess').style.display  = 'block';
+    } else {
+      throw new Error('Server error');
+    }
+  } catch (e) {
+    errEl.textContent = 'Something went wrong. Please email me at powlika5@gmail.com';
+    errEl.style.display = 'block';
+    btn.textContent = 'Send Message →';
+    btn.disabled = false;
+  }
+}
+
+// Allow Enter key in inputs (except textarea) to submit
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Enter' && e.target.tagName !== 'TEXTAREA' && e.target.closest('#contactForm')) {
+    submitForm();
+  }
+});
+</script>
+</body>
+</html>
